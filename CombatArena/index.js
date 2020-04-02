@@ -5,9 +5,7 @@ const config = require("../config/botConfig.json");
 
 var TOKEN = config.combatarena;
 var bot = new Discord.Client();
-var api_endpoint = "http://weeklyrust.com/battlemetrics/playercounts.php";
-var server_url = "?s=5668963&o=json&p=ui243rf987h24wifunw4eiufniwu4nfiu4nmffiu24w";
-
+var url = config.API_ENDPOINT + config.API_CA_PARAMS;
 
 function fetchPlayers() {
     fetch(api_endpoint + server_url).then(res => res.json()).then(body => {
