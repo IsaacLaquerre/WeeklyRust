@@ -1,8 +1,9 @@
 const Discord = require("discord.js");
 const fetch = require("node-fetch");
 const clear = require("clear-console");
+const config = require("../config/botConfig.json");
 
-var TOKEN = "Njk1MTI5NjgyMTAxNjY1ODgy.XoVr_A.o2xH0lmMXcl8V4TzAtuzbhgWYf0";
+var TOKEN = config.combatarena;
 var bot = new Discord.Client();
 var api_endpoint = "http://weeklyrust.com/battlemetrics/playercounts.php";
 var server_url = "?s=5668963&o=json&p=ui243rf987h24wifunw4eiufniwu4nfiu4nmffiu24w";
