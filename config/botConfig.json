@@ -1,4 +1,7 @@
 {
 	"threex": "3X TOKEN HERE",
-	"combatarena": "COMBAT ARENA TOKEN HERE"
+	"combatarena": "COMBAT ARENA TOKEN HERE",
+	"API_ENDPOINT": "http://weeklyrust.com/battlemetrics/playercounts.php",
+	"API_CA_PARAMS": "COMBAT ARENA PARAMETERS HERE",
+	"API_TX_PARAMS": "3X PARAMETERS HERE",
 }
